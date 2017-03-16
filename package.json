@@ -1,0 +1,20 @@
+{
+  "name": "istobarton.com",
+  "version": "1.0.0",
+  "description": "Isto's personal site",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istobarton/istobarton.com.git"
+  },
+  "keywords": [],
+  "author": "Isto Barton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/istobarton/istobarton.com/issues"
+  },
+  "homepage": "https://github.com/istobarton/istobarton.com#readme"
+}
