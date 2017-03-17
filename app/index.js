@@ -1,10 +1,12 @@
-import _ from 'lodash';
+import coreHTML from './index.js';
 
 function component () {
     var element = document.createElement('div');
 
-    /* lodash is required for the next line to work */
-    element.innerHTML = _.join(['Hello','isto','princess'], ' ');
+    element.innerHTML = `
+    <h2>We're working on a redesign. Revelation soon!<h2>
+    <img src='./assets/compere.jpg'>
+`;
 
     return element;
 }
