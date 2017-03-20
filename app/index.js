@@ -1,5 +1,3 @@
-import coreHTML from './index.js';
-
 function component () {
     var element = document.createElement('div');
 
