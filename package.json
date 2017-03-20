@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --watch --progress --open",
     "oldstart": "concurrently \"npm run build\" \"npm run serve\"",
-    "build": "webpack --progress --watch"
+    "build": "webpack --progress --watch",
+    "deploy": "npm run build"
   },
   "repository": {
     "type": "git",
