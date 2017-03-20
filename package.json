@@ -4,7 +4,7 @@
   "description": "Isto's personal site",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --watch --progress",
+    "start": "webpack-dev-server --watch --progress --open",
     "oldstart": "concurrently \"npm run build\" \"npm run serve\"",
     "build": "webpack --progress --watch"
   },
